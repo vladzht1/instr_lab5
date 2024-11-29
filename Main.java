@@ -1,7 +1,6 @@
-import javax.sound.midi.Soundbank;
-
 public class Main {
     public static void main(String[] args) {
+        System.out.print("Это добавлено в ветке main");
         System.out.println("Это добавлено в ветке dev");
 
         // 1
