@@ -16,6 +16,6 @@ public class Main {
             return 1;
         }
 
-        return num * (num - 1);
+        return num * factorial(num - 1);
     }
 }
