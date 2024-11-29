@@ -13,9 +13,11 @@ public class Main {
 
     private static int factorial(int num) {
         if (num <= 0) {
+            System.out.println(num + " is not positive, return 0");
             return 1;
         }
 
+        System.out.println(num + " is positive, recursion");
         return num * factorial(num - 1);
     }
 }
